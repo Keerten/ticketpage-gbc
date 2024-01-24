@@ -147,11 +147,11 @@ button:hover {
   font-size: 25px;
   margin: 40px 40px;
   margin-bottom: 110px;
-  text-decoration: underline;
 }
 
 #summary-heading {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 footer {
