@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  margin-bottom: 65px;
   font-family: "Josefin Slab", serif;
   background-color: #527496;
 }
@@ -71,8 +72,7 @@ label {
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  margin: 40px;
-  /* padding: 40px 0; */
+  margin: 20px 40px;
   border-radius: 8px;
   border: 2px solid rgb(113, 195, 240);
 }
@@ -117,26 +117,30 @@ button:hover {
 }
 
 .overlay {
-  padding: 15px;
+  position: relative;
+  padding: 10px;
   transition: 0.3s ease-in-out;
   background-color: rgba(69, 61, 107, 0.3);
 }
 
 .overlay:hover {
+  position: relative;
   border-radius: 8px;
-  padding: 20px;
+  padding: 15px;
   background-color: rgba(69, 61, 107, 0.5);
 }
 
 .overlay-summary {
+  position: relative;
   padding: 10px 100px;
   transition: 0.3s ease-in-out;
   background-color: rgba(69, 61, 107, 0.3);
 }
 
 .overlay-summary:hover {
+  position: relative;
   border-radius: 8px;
-  padding: 20px 100px;
+  padding: 15px 100px;
   background-color: rgba(69, 61, 107, 0.5);
 }
 
@@ -145,7 +149,7 @@ button:hover {
   border-radius: 8px;
   color: #fff;
   font-size: 25px;
-  margin: 40px 40px;
+  margin: 20px 40px;
   margin-bottom: 110px;
 }
 
@@ -156,6 +160,7 @@ button:hover {
 
 footer {
   position: fixed;
+  width: 100%;
   height: 65px;
   bottom: 0px;
   left: 0px;
